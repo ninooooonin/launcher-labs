@@ -4,8 +4,7 @@ import styled from "styled-components";
 
 const Container = styled.header`
   height: 60px;
-  background-color: #fff;
-  border-bottom: 2px solid #edeeef;
+  background-color: #04010C;
   box-sizing: border-box;
   position: sticky;
   top: 0;

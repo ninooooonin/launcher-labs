@@ -11,7 +11,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     <Fragment>
       <AppHeader />
       <Component {...pageProps} />
-      <AppFooter />
+      {/* <AppFooter /> */}
     </Fragment>
   );
 };
