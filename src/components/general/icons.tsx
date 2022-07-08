@@ -26,7 +26,7 @@ export const BrandIcon: any = (props: any) => {
 };
 
 export const DiscordIcon: any = (props: any) => {
-  return <Icon src={icons.discord} wrapper={"span"} className={props.styles} />;
+  return <Icon src={icons.discord} wrapper={"span"} className={props.styles} f/>;
 };
 
 export const EllipsisIcon: any = (props: any) => {

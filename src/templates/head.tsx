@@ -7,7 +7,7 @@ interface AppHeadProps {
   type?: string;
 }
 
-const AppHead = ({ description,url,title = "Launcher Labs",type = "website" }: AppHeadProps) => {
+const AppHead = ({ description,url,title = "Launcher Labs by CommandBar", type = "website" }: AppHeadProps) => {
   return (
     <Head>
       <title>{title}</title>

@@ -9,7 +9,7 @@ import { Wrapper as LayoutWrapper } from "../components/general/layout";
 import { BrandIcon } from "../components/general/icons";
 
 const Container = styled.header`
-    height: 75px;
+    height: 70px;
     background-color: #000000;
     box-sizing: border-box;
     position: sticky;
