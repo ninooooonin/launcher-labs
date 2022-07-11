@@ -128,7 +128,11 @@ const Color = styled.div`
 
     &.pride {
         background-image: linear-gradient(to bottom, #D22D1F, #D22D1F 15%, #F09336 30%, #FCEE4F 45%, #387F30 60%, #1E4BF5 70%, #6B1383 80%);
+    }
 
+    &.gold {
+        background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
     }
 
     &.support-ukraine {
@@ -222,6 +226,7 @@ const Custom = (props: any) => {
         { label: 'Inline Classic', key: 'inline-classic' },
         { label: 'Inline Classic Pro', key: 'inline-classic-pro' },
         { label: 'Inline Basic', key: 'inline-basic' },
+        { label: 'Inline Basic Pro', key: 'inline-basic-pro' },
     ];
 
     const colors = [
@@ -236,6 +241,7 @@ const Custom = (props: any) => {
         { label: 'Alizarin', key: 'alizarin', colors: ['#D65745'] },
         { label: 'Cloud', key: 'cloud', colors: ['#EDF0F1'] },
         { label: 'Concrete', key: 'concrete', colors: ['#98A4A6'] },
+        { label: 'Gold', key: 'gold', colors: ['#FEDB37'] },
         { label: 'Pride', key: 'pride', colors: ['#D22D1F', '#F09336', '#FCEE4F', '#1E4BF5', '#6B1383'] },
         { label: 'Support Ukraine', key: 'support-ukraine', colors: ['#255AB5', '#F7D748'] },
         { label: 'Random', key: 'random', colors: ['#6B1383'] },
@@ -255,7 +261,7 @@ const Custom = (props: any) => {
         { label: 'Jello', key: 'jello' },
         { label: 'Wobble', key: 'wobble' },
         { label: 'Bounce', key: 'bounce' },
-        { label: 'Pulsate', key: 'pulsate' },
+        { label: 'Heartbeat', key: 'heartbeat' },
     ];
 
     const accessories = [
