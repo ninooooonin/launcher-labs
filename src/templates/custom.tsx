@@ -213,11 +213,11 @@ const Custom = (props: any) => {
 
     const tabs = [
         { label: 'Styles', key: 'styles' },
-        { label: 'Sizes', key: 'sizes' },
+        // { label: 'Sizes', key: 'sizes' },
         { label: 'Colors', key: 'colors' },
-        { label: 'Borders', key: 'borders' },
+        // { label: 'Borders', key: 'borders' },
         { label: 'Animations', key: 'animations' },
-        { label: 'Accessories', key: 'accessories' },
+        // { label: 'Accessories', key: 'accessories' },
     ];
 
     const styles = [
