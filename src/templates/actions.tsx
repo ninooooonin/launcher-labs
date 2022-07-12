@@ -100,11 +100,6 @@ const Actions = (props: any) => {
                             <DiscordIcon styles={`icon`} />
                             <Label>Product Updates</Label>
                         </Content>
-                        <Keys>
-                            <Key>⌘</Key>
-                            <Then>then</Then>
-                            <Key>K</Key>                
-                        </Keys>
                     </Option>
                 </Options>
 
@@ -115,9 +110,7 @@ const Actions = (props: any) => {
                             <Label>Help Center</Label>
                         </Content>
                         <Keys>
-                            <Key>⌘</Key>
-                            <PlusIcon styles={`launcher-plus`}/>
-                            <Key>K</Key>                
+                            <Key>H</Key>
                         </Keys>
                     </Option>
                     <Option href='/'>
@@ -125,57 +118,47 @@ const Actions = (props: any) => {
                             <DiscordIcon styles={`icon`} />
                             <Label>Troubleshooting</Label>
                         </Content>
-                        <Keys>
-                            <Key>⌘</Key>
-                            <PlusIcon styles={`launcher-plus`}/>
-                            <Key>K</Key>                
-                        </Keys>
                     </Option>
                     <Option href='/'>
                         <Content>
                             <IntercomIcon styles={`icon`} />
                             <Label>Contact Support</Label>
                         </Content>
-                        <Keys>
-                            <Key>C</Key>
-                            <PlusIcon styles={`launcher-plus`}/>
-                            <Key>S</Key>                
-                        </Keys>
                     </Option>
                 </Options>
                 <Options>
                     <Option href='/'>
                         <Content>
-                            <ArrowRightIcon styles={`icon`} />
+                            <DiscordIcon styles={`icon`} />
                             <Label>Changelog</Label>
                         </Content>
-                        <Keys>
-                            <Key>⌘</Key>
+                        {/* <Keys>
+                            <Key>L</Key>
                             <PlusIcon styles={`launcher-plus`}/>
-                            <Key>K</Key>                
-                        </Keys>
+                            <Key>O</Key>                
+                        </Keys> */}
                     </Option>
                     <Option href='/'>
                         <Content>
                             <DiscordIcon styles={`icon`} />
                             <Label>Join our Community</Label>
                         </Content>
-                        <Keys>
-                            <Key>⌘</Key>
+                        {/* <Keys>
+                            <Key>G</Key>
                             <PlusIcon styles={`launcher-plus`}/>
-                            <Key>K</Key>                
-                        </Keys>
+                            <Key>D</Key>                
+                        </Keys> */}
                     </Option>
                     <Option href='/'>
                         <Content>
-                            <ArrowRightIcon styles={`icon`} />
+                            <DiscordIcon styles={`icon`} />
                             <Label>Shortcuts</Label>
                         </Content>
-                        {/* <Keys>
-                            <Key>⌘</Key>
-                            <PlusIcon styles={`launcher-plus`}/>
-                            <Key>K</Key>                
-                        </Keys> */}
+                        <Keys>
+                            <Key>J</Key>
+                            {/* <PlusIcon styles={`launcher-plus`}/>
+                            <Key>H</Key>                 */}
+                        </Keys>
                     </Option>
                 </Options>
 
